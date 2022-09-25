@@ -1,0 +1,4 @@
+<app-header  (featureSelected)="onNavigate($event)" ></app-header>
+
+<app-singup *ngIf="link ==='login'"></app-singup>
+<app-login *ngIf="link !=='login'"></app-login>

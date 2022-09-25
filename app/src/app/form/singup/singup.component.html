@@ -1,0 +1,36 @@
+<div class="center">
+  <h1 class="form-head">Sign Up</h1>
+  <form class="" (ngSubmit)="onsubmit(form)"    #form="ngForm"  autocomplete="on">
+  <p style="font-size:16px; color:green"></p>
+    <div class="txt_field">
+      <input type="text" name="name" value="" ngModel required>
+        <span></span>
+      <label for="">Name</label>
+    </div>
+    <div class="txt_field">
+      <input type="text" name="email" value="" ngModel required>
+        <span></span>
+      <label for="">Email-address</label>
+    </div>
+    <div class="txt_field">
+      <input type="numb" name="number" value="" maxlength="10" ngModel  required>
+        <span></span>
+      <label for="">Mobile-Number</label>
+    </div>
+    <div class="txt_field">
+      <input type="password" name="password" value="" ngModel required>
+      <span></span>
+      <label for="">Password</label>
+    </div>
+    <div class="txt_field">
+      <input type="password" name="repetpassword" value=""  ngModel required>
+        <span></span>
+      <label for="">Repeat Password</label>
+    </div>
+    <input type="submit" name="submit"  value="Sign Up"  >
+    
+    <div class="singup_link" appStyle  #color>
+      Already have an account?Sing Up <a href="" ></a>
+    </div>
+  </form>
+</div>

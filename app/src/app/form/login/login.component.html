@@ -1,0 +1,20 @@
+<div class="center">
+    <h1 class="form-head">Log In</h1>
+     <form (ngSubmit)="onsubmit(form)" #form="ngForm">
+      <div class="txt_field">
+        <input type="text" name="email" value="" required ngForm>
+        <span></span>
+        <label for="">Email-address</label>
+      </div>
+      <div class="txt_field">
+        <input type="password" name="password" value="" required ngForm>
+        <span></span>
+        <label for="">Password</label>
+      </div>
+      <input type="submit" name="login" value="login" ngForm>
+      <div class="singup_link">
+        Not a member? Login Up <a href="" ></a>
+      </div>
+    </form>
+  </div>
+
